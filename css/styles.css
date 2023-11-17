@@ -1,20 +1,16 @@
 
-/* ----------Sticky header styling ----------------*/
 .header {
   background-color: tan;
   padding: 30px;
   text-align: center;
 }
-
 .navbar {
   display: flex;
   justify-content: space-around;
   overflow: hidden;
   background-color: #154d2e;
   height: 55px;
-  
 }
-
 .navbar a {
   display: block;
   color: white;
@@ -23,60 +19,43 @@
   text-decoration: none;
   font-size: 17px;
   border: 30px;
-  border-color: black; 
+  border-color: black;
 }
-
 .navbar a:hover {
   background-color: #789687;
   color: black;
   border: solid 2px black;
 }
-
 .navbar a.active {
   background-color: #3e8c65;
   color: white;
   border: solid 2px black;
 }
-
-
-
-/* -------------------------------------------------------------------------------------------------*/
-
-
-article{
+article {
   display: flex;
   justify-content: center;
 }
-
-
-
 main {
   padding: 50px;
 }
-
- img {
+img {
   max-width: 80%;
   border: 2px solid black;
   justify-content: center;
-  
-} 
-
+}
 label {
   align-content: center;
   margin-right: 0px;
 }
-
 .center {
   margin-left: auto;
   margin-right: auto;
   border-collapse: collapse;
 }
-
 #homePageTitle {
   padding-top: 50px;
   padding-bottom: 5px;
 }
-
 body {
   background-color: wheat;
   margin: 0;
@@ -84,64 +63,44 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-
-#homePageCardsDiv{
+#homePageCardsDiv {
   display: flex;
   justify-content: space-around;
 }
-#homePageLinksDiv{
+#homePageLinksDiv {
   display: flex;
   justify-content: space-evenly;
 }
-
-
-
-
-#mountainsPageMainTag{
+#mountainsPageMainTag {
   display: flex;
   justify-content: center;
 }
-
-
-
-/* ------------------------mountains page card content------------------------- */
-.mountainsCard{
+.mountainsCard {
   display: flex;
- justify-content: center; 
-
+  justify-content: center;
 }
-
 .mountainsCardContent {
   padding-top: 10px;
   display: flex;
   flex-direction: column;
   background-color: #495e51;
   color: black;
- max-height: 100%;
+  max-height: 100%;
   width: 500px;
   border: 10px solid black;
   margin: 100px;
 }
-
-.mountainsCardParagraph{
+.mountainsCardParagraph {
   justify-content: space-evenly;
   margin: 10px;
 }
-
-
-
 .cardParagraphTextSize {
   font-size: 20px;
   max-width: 100%;
-  
 }
-
-#cardImage{
+#cardImage {
   justify-content: center;
 }
-
-
-/* -------------------------park searcher page styling--------------------------------- */
 #nationalParkSearherForm {
   border: solid 3px gray;
   padding: 20px;
@@ -150,7 +109,6 @@ body {
   background-color: sandybrown;
 }
 
-/* --------------------------park table styling--------------------------------- */
 #parkTableDiv {
   display: flex;
   justify-content: center;
@@ -159,30 +117,14 @@ body {
 #parkSearcherTable {
   border-collapse: collapse;
 }
-
 th,
 td {
   width: 100px;
   border: 3px solid black;
   background-color: white;
 }
-
-/* ------------------------dropdown styling ------------------------*/
 select {
   height: 50px;
   width: 250px;
   background-color: silver;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
