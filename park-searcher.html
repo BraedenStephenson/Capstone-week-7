@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h1 style="font-size: 20px"><strong>Great Outdoor Adventure</strong></h1>
+        <a  href="index.html">Home</a>
+        <a   href="mountains.html">Mountains</a>
+        <a class="active" href="park-searcher.html">National Parks</a>
+      </div>
+      
+    </header>
+    <main>
+      <h1>National park search page</h1>
+      <form id="nationalParkSearherForm">
+        <input type="radio" id="locationTypeRadioButton" name="fav_language" />
+        <label for="locationTypeRadioButton">By location</label>
+        <input type="radio" id="parkTypeRadioButton" name="fav_language" />
+        <label for="parkTypeRadioButton">Park Type</label><br />
+
+        <br />
+        <div class="park-location">
+        <label for="nationalParkSearcherDropdownList">Select an option:</label>
+        <select id="nationalParkSearcherDropdownList">
+          <option value="option 1">Select State...</option>
+        </select>
+      </div>
+<div class="park-type">
+        <label for="ParkByTypeDropdown">Select an option:</label>
+        <select id="ParkByTypeDropdown">
+          <option value="option 1">Select Park Type...</option>
+        </select>
+      </div>
+      </form>
+      <h4>States/Territories - Parks</h4>
+      <div id="parkTableDiv">
+      <table id="parkSearcherTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Zip</th>
+            <th>Phone</th>
+            <th>Fax</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+          </tr>
+        </thead>
+        <tbody id="parkTableDisplay"></tbody>
+      </table>
+    </div>
+    </main>
+    <footer></footer>
+
+    <script src="/scripts/locationData.js"></script>
+    <script src="/scripts/parkTypeData.js"></script>
+    <script src="/scripts/nationalParkData.js"></script>
+    <script src="/scripts/parks.js"></script>
+  </body>
+</html>

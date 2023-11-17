@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/styles.css"> 
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h1 style="font-size: 20px"><strong>Great Outdoor Adventure</strong></h1>
+        <a  href="index.html">Home</a>
+        <a  class="active" href="mountains.html">Mountains</a>
+        <a href="park-searcher.html">National Parks</a>
+      </div>
+     
+    </header>
+    <main id="mountainsPageMainTag">
+      <div class="content">
+        <h1>Mountains details</h1>
+        <form>
+          <label for="mountainsPageDropdown">Mountain selector:</label>
+          <select id="mountainsPageDropdown">
+            <option value="option 1">Pick a mountain... </option>
+          </select>
+        </form>
+       
+        <article class="mountainsCard"> 
+        <div class="mountainsCardContent">
+          <div>
+          <img id="mountainsImage" src="" alt="Avatar" style="width: 700px; height: 400px" />
+          <div class="mountainsCardParagraph">
+              <p style="font-size: 40px;">Name: <span id="mountainName" style="font-size: 30px"></span></p>
+              <p style="font-size: 40px;">Elevation: <span id="mountainElevation" style="font-size: 20px;"></span></p>
+              <p style="font-size: 40px;">Effort: <span id="mountainEffort" style="font-size: 20px;"></span></p>
+              <p style="font-size: 40px;">Longitude: <span id="mountainLongitude" style="font-size: 20px;"></span></p>
+              <p style="font-size: 40px;">Latitude: <span id="mountainLatitude" style="font-size: 20px;"></span></p>
+              <p style="font-size: 40px;">Description: <br> <span id="mountainDescription" style="font-size: 20px;"></span></p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+  <footer></footer>
+    <script src="/scripts/mountainData.js"></script>
+    <script src="/scripts/mountains.js"></script>
+   
+  </body>
+</html>
