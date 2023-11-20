@@ -19,6 +19,8 @@ let mountainDataArray = [
   mountainLatitude,
 ];
 
+
+
 //--------------------------------create functions----------------------------------//
 
 function displayMountainData() {
